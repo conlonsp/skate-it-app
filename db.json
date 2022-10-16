@@ -1,0 +1,49 @@
+{
+  "spots": [
+    {
+      "id": 1,
+      "name": "China Courts",
+      "city": "Boston",
+      "state": "MA",
+      "street": "",
+      "image": "",
+      "description": "Wooden ledges and other makeshift doo-dads that make for a good session.  Located on a basketball court so be respectful of those utilizing the courts for its intended purpose."
+    },
+    {
+      "id": 2,
+      "name": "Texas Beach",
+      "city": "Richmond",
+      "state": "VA",
+      "street": "",
+      "image": "",
+      "description": "Well-poured concrete with a healthy dose of both tranny and street obstacles.  This spot is a haven for the locals so respect the space and cleanup after yourself."
+    },
+    {
+      "id": 3,
+      "name": "Foundation",
+      "city": "Asheville",
+      "state": "NC",
+      "street": "",
+      "image": "",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "name": "Foundation",
+      "city": "Asheville",
+      "state": "NC",
+      "street": "",
+      "image": "",
+      "description": ""
+    },
+    {
+      "id": 5,
+      "name": "Foundation",
+      "city": "Asheville",
+      "state": "NC",
+      "street": "",
+      "image": "",
+      "description": ""
+    }
+  ]
+}
