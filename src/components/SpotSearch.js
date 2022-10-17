@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import SpotList from "./SpotList";
 
-function SpotSearch() {
+function SpotSearch({ allSpots, showSpots, setShowSpots }) {
   const [search, setSearch] = useState('')
 
   const filterSpots = [...allSpots].filter(spot => spot.city === search)
