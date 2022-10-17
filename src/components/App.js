@@ -5,7 +5,6 @@ import Home from './Home'
 import About from './About';
 import SpotSearch from './SpotSearch'
 import AddSpot from './AddSpot';
-import './App.css';
 
 function App() {
   const [allSpots, setAllSpots] = useState([])
