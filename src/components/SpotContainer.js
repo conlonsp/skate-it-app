@@ -1,9 +1,13 @@
 import React from "react";
 
-function SpotContainer({ spot }) {
-  console.log(spot)
+function SpotContainer({ spot, setSelectedSpot }) {
+
+  function handleClick() {
+    setSelectedSpot(spot)
+  }
+
   return (
-    <ul>
+    <ul onClick={handleClick}>
       <li>{spot.name}</li>
       <p>{spot.city}, {spot.state}</p>
     </ul>

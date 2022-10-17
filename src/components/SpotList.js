@@ -1,13 +1,17 @@
 import React from 'react'
 import SpotContainer from './SpotContainer'
 
-function SpotList({ spots }) {
+function SpotList({ spots, setSelectedSpot }) {
   return (
     <div>
       <h1>SpotList</h1>
       {spots.map(spot => {
         return (
-          <SpotContainer key={spot.id} spot={spot} />
+          <SpotContainer
+            key={spot.id}
+            spot={spot}
+            setSelectedSpot={setSelectedSpot}
+          />
         )
       })}
     </div>

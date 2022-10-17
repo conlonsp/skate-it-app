@@ -1,9 +1,10 @@
 import React from "react";
 import {Card} from 'semantic-ui-react'
 
-function Spot() {
+function Spot({ spot }) {
+  console.log(spot)
   return (
-    <Card>
+    <Card id='spot-card'>
       hello!
     </Card>
   )

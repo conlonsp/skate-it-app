@@ -4,6 +4,7 @@ import Spot from './Spot'
 
 function SpotSearch({ allSpots, showSpots, setShowSpots }) {
   const [search, setSearch] = useState('')
+  const [selectedSpot, setSelectedSpot] = useState({})
 
   const filterSpots = [...allSpots].filter(spot => spot.city === search)
 
@@ -22,7 +23,7 @@ function SpotSearch({ allSpots, showSpots, setShowSpots }) {
       alert(`Spots in ${search} cannot be found`)
     }
   }
-
+  
   return (
     <div>
       <h1 style={{textAlign: 'center'}}>Spot Search</h1>
@@ -36,8 +37,8 @@ function SpotSearch({ allSpots, showSpots, setShowSpots }) {
         ></input>
         <button>🔎</button>
       </form>
-      <SpotList spots={showSpots} />
-      <Spot />
+      <SpotList spots={showSpots} setSelectedSpot={setSelectedSpot} />
+      {selectedSpot.id > 0 ? <Spot spot={selectedSpot} /> : null}
     </div>
   )
 }

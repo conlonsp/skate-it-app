@@ -13,6 +13,13 @@
   color: rgb(255, 255, 255);
 }
 
+#spot-card {
+  background-color: rgb(41, 64, 89);
+  border-color: rgb(34, 56, 80);
+  font-size: 20px;
+}
+
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
