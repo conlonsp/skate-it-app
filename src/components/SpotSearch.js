@@ -22,6 +22,7 @@ function SpotSearch({ allSpots, showSpots, setShowSpots }) {
     } else {
       alert(`Spots in ${search} cannot be found`)
     }
+    setSelectedSpot({})
   }
   
   return (
