@@ -11,6 +11,12 @@ function App() {
   const [allSpots, setAllSpots] = useState([])
   const [showSpots, setShowSpots] = useState([])
 
+  useEffect(() => {
+    fetch('http://localhost:3000/spots')
+    .then(r => r.json())
+    .then(data => setAllSpots(data))
+  }, [setShowSpots])
+
   return (
     <div className="App">
       <h1 style={{textAlign: 'center'}}>skate it.</h1>
