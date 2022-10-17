@@ -1,6 +1,6 @@
 import React from "react";
 
-function Spot({ spot }) {
+function SpotContainer({ spot }) {
   return (
     <ul>
       <li>{spot.name}</li>
@@ -9,4 +9,4 @@ function Spot({ spot }) {
   )
 }
 
-export default Spot
+export default SpotContainer

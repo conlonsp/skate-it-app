@@ -1,5 +1,5 @@
 import React from 'react'
-import Spot from './Spot'
+import SpotContainer from './SpotContainer'
 
 function SpotList({ spots }) {
   return (
@@ -7,7 +7,7 @@ function SpotList({ spots }) {
       <h1>SpotList</h1>
       {spots.map(spot => {
         return (
-          <Spot key={spot.id} spot={spot} />
+          <SpotContainer key={spot.id} spot={spot} />
         )
       })}
     </div>
