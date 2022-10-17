@@ -4,7 +4,7 @@ import {Card, Grid, Image} from 'semantic-ui-react'
 function Spot({ spot }) {
   console.log(spot)
   return (
-    <Grid>
+    <Grid id='spot-grid'>
       <Grid.Column>
         <Image
           src={spot.image}
