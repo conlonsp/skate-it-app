@@ -83,7 +83,7 @@ function AddSpot({ allSpots, setAllSpots }) {
           type='text'
           name='street'
           value={addSpot.street}
-          placeholder='street...'
+          placeholder='street/coordinates...'
         />
         <br/>
         <input
