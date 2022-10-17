@@ -19,6 +19,12 @@
   font-size: 20px;
 }
 
+.spotImg {
+  overflow: hidden;
+  height: 160px;
+  width: 130px;
+}
+
 
 /* .App-logo {
   height: 40vmin;

@@ -5,14 +5,14 @@ function Spot({ spot }) {
   console.log(spot)
   return (
     <Grid id='spot-grid'>
-      <Grid.Column>
+      {/* <Grid.Column>
         <Image
           src={spot.image}
           floated="left"
-          size="small"
-          className="hostImg"
+          
+          className="spotImg"
         />
-      </Grid.Column>
+      </Grid.Column> */}
       <Grid.Column>
         <Card>
           <Card.Content>
@@ -20,8 +20,16 @@ function Spot({ spot }) {
               {spot.name}
             </Card.Header>
             <Card.Description>
+              {spot.street}
+              <br/>
               {spot.city}, {spot.state}
             </Card.Description>
+            <Image
+              src={spot.image}
+              floated='left'
+              size='medium'
+              //className='spotImg'
+            />
           </Card.Content>
         </Card>
       </Grid.Column>
