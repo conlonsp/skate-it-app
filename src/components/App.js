@@ -10,7 +10,22 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      
+      <h1 style={{textAlign: 'center'}}>skate it.</h1>
+      <NavBar />
+      <Switch>
+        <Route path='/about'>
+          <About />
+        </Route>
+        <Route path='/search'>
+          <SpotSearch allSpots={allSpots} showSpots={showSpots} setShowSpots={setShowSpots} />
+        </Route>
+        <Route path='/add'>
+          <AddSpot allSpots={allSpots} setAllSpots={setAllSpots}/>
+        </Route>
+        <Route exact path='/'>
+          <Home />
+        </Route>
+      </Switch>
     </div>
   );
 }
