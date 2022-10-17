@@ -1,6 +1,7 @@
 import React from "react";
 
 function SpotContainer({ spot }) {
+  console.log(spot)
   return (
     <ul>
       <li>{spot.name}</li>
