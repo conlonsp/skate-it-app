@@ -4,7 +4,7 @@ import {Card} from 'semantic-ui-react'
 function Spot() {
   return (
     <Card>
-      <h1>hello!</h1>
+      hello!
     </Card>
   )
 }

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SpotList from "./SpotList";
+import Spot from './Spot'
 
 function SpotSearch({ allSpots, showSpots, setShowSpots }) {
   const [search, setSearch] = useState('')
@@ -36,6 +37,7 @@ function SpotSearch({ allSpots, showSpots, setShowSpots }) {
         <button>🔎</button>
       </form>
       <SpotList spots={showSpots} />
+      <Spot />
     </div>
   )
 }
