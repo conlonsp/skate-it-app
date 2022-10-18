@@ -13,17 +13,17 @@
   color: rgb(255, 255, 255);
 }
 
-#spot-grid {
-  background-color: rgb(41, 64, 89);
-  border-color: rgb(34, 56, 80);
+#spot-card {
+  background-color: darkslategray;
   font-size: 20px;
 }
 
-.spotImg {
+/* .spotImg {
   overflow: hidden;
   height: 160px;
   width: 130px;
-}
+  rgb(41, 64, 89)
+} */
 
 
 /* .App-logo {
