@@ -17,8 +17,6 @@ function Spot({ spot }) {
         <br/>
         <Image
           src={spot.image}
-          floated='left'
-          size='medium'
         />
       </Card.Content>
     </Card>
