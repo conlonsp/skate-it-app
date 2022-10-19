@@ -1,5 +1,5 @@
 import React from "react";
-import {Card, Grid, Image} from 'semantic-ui-react'
+import {Card, Image} from 'semantic-ui-react'
 
 function Spot({ spot }) {
   console.log(spot)
@@ -19,6 +19,7 @@ function Spot({ spot }) {
           src={spot.image}
         />
         <Card.Description>
+          <br/>
           {spot.description}
         </Card.Description>
       </Card.Content>
