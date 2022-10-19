@@ -6,9 +6,9 @@ function SpotSearch({ allSpots, showSpots, setShowSpots }) {
   const [search, setSearch] = useState('')
   const [selectedSpot, setSelectedSpot] = useState({})
 
-  const filterSpots = [...allSpots].filter(spot => spot.city === search)
+  const filterSpots = [...allSpots].filter(spot => spot.city.toLowerCase() === search.toLowerCase())
 
-  const findSpot = [...allSpots].find(spot => spot.city === search)
+  const findSpot = [...allSpots].find(spot => spot.city.toLowerCase() === search.toLowerCase())
 
   function handleChange(event) {
     setSearch(event.target.value)
