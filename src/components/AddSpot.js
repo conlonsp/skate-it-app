@@ -48,8 +48,6 @@ function AddSpot({ allSpots, setAllSpots }) {
     })
   }
 
-  // console.log(addSpot)
-
   return (
     <div>
       <h1 style={{textAlign: 'center'}}>Add a Spot</h1>
