@@ -14,7 +14,7 @@
       "name": "Texas Beach",
       "city": "Richmond",
       "state": "VA",
-      "street": "37.532143°N 77.468639°W",
+      "street": "1907 Texas Ave",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Riverview_Community_Park.jpg",
       "description": "Well-poured concrete with a healthy dose of both tranny and street obstacles.  This spot is a haven for the locals so respect the space and cleanup after yourself."
     },
@@ -35,6 +35,15 @@
       "image": "https://i0.heartyhosting.com/skateboarding.transworld.net/wp-content/uploads/lost-bowl-diy/Lost%20Bowl_Overview.jpg?w=1600&ssl=1",
       "description": "This is the pinnacle of DIY skating!  Located in the backyard of a Richmond home, this spot won't disappoint.  Just get approval from the residents first.",
       "id": 4
+    },
+    {
+      "name": "Martinsburg DIY",
+      "city": "Martinsburg",
+      "state": "WV",
+      "street": "500 W Race St",
+      "image": "https://bloximages.newyork1.vip.townnews.com/journal-news.net/content/tncms/assets/v3/editorial/4/dd/4dd70e99-5907-5ca6-9eb5-1b9c9d94e789/60cfa6eddf92b.image.jpg?resize=1024%2C768",
+      "description": "DIY spot made on an old concrete foundation.  There's a few cracks in the concrete and the transition is a bit sketchy, but altogether a great spot!",
+      "id": 5
     }
   ]
 }
