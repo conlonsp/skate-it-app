@@ -4,7 +4,8 @@ import SpotContainer from './SpotContainer'
 function SpotList({ spots, setSelectedSpot }) {
   return (
     <div>
-      <h1>SpotList</h1>
+      <br/>
+      <h1 style={{textAlign: 'center'}}>List of Spots</h1>
       {spots.map(spot => {
         return (
           <SpotContainer
