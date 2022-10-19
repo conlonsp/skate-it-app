@@ -27,6 +27,7 @@ function SpotSearch({ allSpots, showSpots, setShowSpots }) {
   
   return (
     <div>
+      <br/>
       <h1 style={{textAlign: 'center'}}>Spot Search</h1>
       <form className='search' onSubmit={handleSubmit}>
         <input
