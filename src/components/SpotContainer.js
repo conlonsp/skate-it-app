@@ -8,8 +8,8 @@ function SpotContainer({ spot, setSelectedSpot }) {
 
   return (
     <ul onClick={handleClick}>
-      <li>{spot.name}</li>
-      <p>{spot.city}, {spot.state}</p>
+      <li style={{fontSize: '25px'}}>{spot.name}</li>
+      <p style={{fontSize: '20px'}}>{spot.city}, {spot.state}</p>
     </ul>
   )
 }
