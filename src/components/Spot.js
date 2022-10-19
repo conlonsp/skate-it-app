@@ -18,6 +18,9 @@ function Spot({ spot }) {
         <Image
           src={spot.image}
         />
+        <Card.Description>
+          {spot.description}
+        </Card.Description>
       </Card.Content>
     </Card>
   )

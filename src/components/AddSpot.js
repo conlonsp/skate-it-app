@@ -27,7 +27,7 @@ function AddSpot({ allSpots, setAllSpots }) {
       state: addSpot.state,
       street: addSpot.street,
       image: addSpot.image,
-      desctiption: addSpot.description,
+      description: addSpot.description,
     }
     fetch('http://localhost:3000/spots', {
       method: 'POST',

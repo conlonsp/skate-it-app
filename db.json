@@ -26,6 +26,15 @@
       "street": "37 Foundy Street",
       "image": "https://www.ytravelblog.com/wp-content/uploads/2022/01/Foundation-skate-park-river-arts-district-asheville.jpg",
       "description": ""
+    },
+    {
+      "name": "Lost Bowl",
+      "city": "Richmond",
+      "state": "VA",
+      "street": "Lost Ln",
+      "image": "https://i0.heartyhosting.com/skateboarding.transworld.net/wp-content/uploads/lost-bowl-diy/Lost%20Bowl_Overview.jpg?w=1600&ssl=1",
+      "description": "This is the pinnacle of DIY skating!  Located in the backyard of a Richmond home, this spot won't disappoint.  Just get approval from the residents first.",
+      "id": 4
     }
   ]
 }
