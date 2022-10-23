@@ -4,7 +4,7 @@ function Home() {
   return (
     <div>
       <h1 style={{textAlign: 'center'}}>Home</h1>
-      <p style={{textAlign: 'center'}}>
+      <p style={{textAlign: 'center', fontSize: '20px'}}>
         Welcome to Skate it!  The only place you can go to find the crustiest DIY spots in your area.
       </p>
     </div>
