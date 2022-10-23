@@ -32,12 +32,13 @@ function SpotSearch({ allSpots, showSpots, setShowSpots }) {
       <form className='search' onSubmit={handleSubmit}>
         <input
           onChange={handleChange}
+          style={{fontSize: '20px'}}
           type='text'
           name='city'
           value={search}
           placeholder='search town or city...'
         ></input>
-        <button>🔎</button>
+        <button style={{fontSize: '20px'}}>🔎</button>
       </form>
       <SpotList spots={showSpots} setSelectedSpot={setSelectedSpot} />
       {selectedSpot.id > 0 ? <Spot spot={selectedSpot} /> : null}
