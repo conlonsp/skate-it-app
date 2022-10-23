@@ -54,6 +54,7 @@ function AddSpot({ allSpots, setAllSpots }) {
       <form onSubmit={handleSubmit}>
         <input
           onChange={handleChange}
+          style={{fontSize: '20px'}}
           type='text'
           name='name'
           value={addSpot.name}
@@ -62,6 +63,7 @@ function AddSpot({ allSpots, setAllSpots }) {
         <br/>
         <input
           onChange={handleChange}
+          style={{fontSize: '20px'}}
           type='text'
           name='city'
           value={addSpot.city}
@@ -70,6 +72,7 @@ function AddSpot({ allSpots, setAllSpots }) {
         <br/>
         <input
           onChange={handleChange}
+          style={{fontSize: '20px'}}
           type='text'
           name='state'
           value={addSpot.state}
@@ -78,6 +81,7 @@ function AddSpot({ allSpots, setAllSpots }) {
         <br/>
         <input
           onChange={handleChange}
+          style={{fontSize: '20px'}}
           type='text'
           name='street'
           value={addSpot.street}
@@ -86,6 +90,7 @@ function AddSpot({ allSpots, setAllSpots }) {
         <br/>
         <input
           onChange={handleChange}
+          style={{fontSize: '20px'}}
           type='text'
           name='image'
           value={addSpot.image}
@@ -94,13 +99,14 @@ function AddSpot({ allSpots, setAllSpots }) {
         <br/>
         <textarea
           onChange={handleChange}
+          style={{fontSize: '20px'}}
           type='text'
           name='description'
           value={addSpot.description}
           placeholder='description...'
         />
         <br/>
-        <button>Submit Spot!</button>
+        <button style={{fontSize: '20px'}}>Submit Spot!</button>
       </form>
     </div>
   )
