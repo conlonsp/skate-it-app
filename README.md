@@ -4,7 +4,7 @@ This app was created with React!
 
 ## How to Start the App
 
-To get started, fork this repo into your local environment.  Once done, install the dependencies need to run the app by typing 'npm install' into your terminal. Next, you will want to boot up the server by typing 'json-server --watch db.json' into the terminal.  Now things should be all start!  Open a new tab in your terminal and type 'npm start'.
+To get started, fork this repo into your local environment.  Once done, install the dependencies need to run the app by typing 'npm install' into your terminal. Next, you will want to boot up the server by typing 'json-server --watch db.json' into the terminal.  Now things should be all set to start!  Open a new tab in your terminal and type 'npm start'.
 
 ## Quick Overview of the App
 
@@ -15,6 +15,12 @@ Skate it was created to allow skateboarders to upload or find DIY skateparks in 
 The Home page essentially welcomes all users to the app.  There's nothing special here, but thanks for coming anyways!
 
 ## About
+
+Here's where you'll learn how to use the app and learn more about what inspired the creation of skate it!
+
+## Search
+
+
 
 
 
