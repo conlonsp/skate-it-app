@@ -8,7 +8,7 @@ function SpotSearch({ allSpots, showSpots, setShowSpots }) {
 
   const filterSpots = [...allSpots].filter(spot => spot.city.toLowerCase() === search.toLowerCase())
 
-  const findSpot = [...allSpots].find(spot => spot.city.toLowerCase() === search.toLowerCase())
+  // const findSpot = [...allSpots].find(spot => spot.city.toLowerCase() === search.toLowerCase())
 
   function handleChange(event) {
     setSearch(event.target.value)
@@ -16,7 +16,7 @@ function SpotSearch({ allSpots, showSpots, setShowSpots }) {
 
   function handleSubmit(event) {
     event.preventDefault()
-    if(findSpot) {
+    if(filterSpots) {
       setShowSpots(filterSpots)
       setSearch('')
     } else {
