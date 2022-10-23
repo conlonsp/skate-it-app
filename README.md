@@ -20,7 +20,15 @@ Here's where you'll learn how to use the app and learn more about what inspired 
 
 ## Search
 
+In this section you'll be able to search for different DIY spots from across the US.  Simply type in a city or state name and a list of DIY spots in that area will append to the page.  You can click on the name of the DIY to get more details on the spot.
 
+## Add
+
+This section allows you to add a new spot to the API!  Fill out all the fields in the form.  The fields include spot name, city, state, street address, image URL, and description.  We greatly appreciate any additions to our growing database.  The more, the merrier!
+
+## Future Updates
+
+We thank you for checking out our application!  In the future we intend to add a new route to update any spots within our API, a like button, a comment section, and more!
 
 
 
