@@ -35,7 +35,7 @@ function SpotSearch({ allSpots, showSpots, setShowSpots }) {
           type='text'
           name='city'
           value={search}
-          placeholder='search area...'
+          placeholder='search town or city...'
         ></input>
         <button>🔎</button>
       </form>
