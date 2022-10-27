@@ -17,8 +17,6 @@ function AddSpot({ allSpots, setAllSpots }) {
     })
   }
 
-  console.log(addSpot)
-
   function handleSubmit(event) {
     event.preventDefault()
     const newSpot = {
