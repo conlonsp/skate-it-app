@@ -48,6 +48,7 @@ function AddSpot({ allSpots, setAllSpots }) {
 
   return (
     <div>
+      <br/>
       <h1 style={{textAlign: 'center'}}>Add a Spot</h1>
       <form onSubmit={handleSubmit}>
         <input
