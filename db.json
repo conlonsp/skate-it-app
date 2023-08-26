@@ -44,6 +44,24 @@
       "image": "https://bloximages.newyork1.vip.townnews.com/journal-news.net/content/tncms/assets/v3/editorial/4/dd/4dd70e99-5907-5ca6-9eb5-1b9c9d94e789/60cfa6eddf92b.image.jpg?resize=1024%2C768",
       "description": "DIY spot made on an old concrete foundation.  There's a few cracks in the concrete and the transition is a bit sketchy, but altogether it's a great spot!",
       "id": 5
+    },
+    {
+      "name": "Sam",
+      "city": "Samtown",
+      "state": "Samstate",
+      "street": "123 sam street",
+      "image": "",
+      "description": "Hi",
+      "id": 6
+    },
+    {
+      "name": "NB Underpass",
+      "city": "New Bedford",
+      "state": "MA",
+      "street": "2071 Purchase St",
+      "image": "https://lh5.googleusercontent.com/p/AF1QipM_7ynSMXxiDK1MzsuwaKmEZcmEIthRzZu8jMIO=w408-h306-k-no",
+      "description": "Phenomenal DIY park under the route 195 overpass on purchase street. New features have been added at least once a year for the last 19 years. There's some great transition rips around the outside with various coping styles. One corner quarter even has coping made of cemented in rocks that make a satisfying sound when slashed. Some fun ledges of various sizes and a nice keyhole shaped cement block (berfect for bluntslides!) there is also a nice pyramid with a tall rounded ledge along its outside wall. Along the perimeter along cedar grove st. there's a fun bank built on the corner along side a beautiful low and mellow rail out to the street!",
+      "id": 7
     }
   ]
 }

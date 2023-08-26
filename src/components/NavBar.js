@@ -15,7 +15,7 @@ const linkStyles = {
 function NavBar() {
 
   return (
-    <div className='navbar' style={{textAlign: 'center'}}>
+    <div  style={{textAlign: 'center'}}>
       <NavLink
         to='/'
         exact

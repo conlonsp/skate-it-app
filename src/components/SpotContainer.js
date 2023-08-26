@@ -7,7 +7,7 @@ function SpotContainer({ spot, setSelectedSpot }) {
   }
 
   return (
-    <ul onClick={handleClick}>
+    <ul className='spot-container' onClick={handleClick}>
       <li style={{fontSize: '25px'}}>{spot.name}</li>
       <p style={{fontSize: '20px'}}>{spot.city}, {spot.state}</p>
     </ul>

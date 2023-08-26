@@ -18,6 +18,10 @@
   font-size: 20px;
 }
 
+.spot-container {
+  cursor: pointer
+}
+
 /* .spotImg {
   overflow: hidden;
   height: 160px;
